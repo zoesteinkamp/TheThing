@@ -1,7 +1,10 @@
 from django.conf.urls import patterns, url
-from webhook.views import webhook
+from webhook.views import *
 
 urlpatterns = patterns('',
-    url(r'^webhook', webhook, name='webhook'),
+    url(r'^btc', btc, name='btc'),
+    url(r'^travel', travel, name='travel'),
+    url(r'^watson', watson, name='watson'),
+    url(r'^intuit', intuit, name='intuit')
 )
 
