@@ -1,9 +1,9 @@
 from django.conf.urls import patterns, url, include
-from webhook import views
+from webhook.views import webhook
 
 urlpatterns = patterns('',
 
-    url(r'^webhook', webhook.as_view()),
+    url(r'^webhook', webhook),
 
 )
 
