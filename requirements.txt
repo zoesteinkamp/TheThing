@@ -1,6 +1,6 @@
 beautifulsoup4==4.4.1
 Django==1.8.5
-djangorestframework==3.3.2
+djangorestframework==3.11.2
 lxml==3.5.0
 mechanize==0.2.5
 pysolr==3.4.0
